@@ -16,7 +16,7 @@ io.on("connection", function(socket){
 //    console.log(allusers);
     
 //    socket.emit("yourid", socket.id);
-    
+//    
 //    io.emit("userjoined", allusers);
     
     socket.on("stick", function(data){
